@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lacquer&family=Syne+Tactile&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lacquer&family=Major+Mono+Display&family=Syne+Tactile&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+    background-color: #8abac8;
+    background-image: url(../img/bg.jpg);
+    height:90vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    color: #d9d9d9;
+    font-size: 9px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #688aa7;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(246, 246, 246);
+    padding: 13px 18px;
+    text-decoration: double;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#2b669b;
+}
+
+/* Structure*/
+.wrapper {
+    width: 50%;
+    margin: 40px;
+}
+
+.header img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 1510px;
+    height: 700px;
+}
+
+.header-logo img {
+    height: 250px;
+    margin-top: 190px;
+    margin-left: 300px;
+}
+
+.mainNav {
+    margin-top: 60px;
+    margin-left: 560px;
+    padding: auto;
+}
+
+.mainNav li {
+    display: inline-block;
+}
+
+.mainNav ol li a{
+    font-family: "Archivo", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color:#e4e4e4;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.mainNav ol li a:hover{
+    transition: .3s all ease;
+    text-shadow: 5px 5px 10px #156cf8;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 400px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position: sticky;
+    top:0;
+    z-index: 9001;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.nav ol li a{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    color:#e4e4e4;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.nav ol li a:hover{
+    transition: .5s all ease;
+    text-shadow: 10px 10px 20px #e1134e;
+}
+
+.divider img {
+    width: 100%;
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
+
+.main {
+    padding: 50px;
+}
+
+.section1 {
+    width: 70%;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    margin-top: 90px;
+    margin-left: 200px;
+    margin-bottom: 180px;
+}
+
+.section1 p {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section1 h2 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section1 h3 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.section1 img {
+    width: 200px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.section1 button {
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: double;
+    background-color: #4b8ac1d6;
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+}
+
+.section1 button:hover {
+    background-color: #ef4a718d;
+}
+
+.footer p {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    margin: 20px;
+    margin-top: -30px;
+    padding: 50px;
+    flex: 3;
+}
+
+.flex div h1 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: -15px;
+}
+
+.flex div h2 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.flex div h3 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.flex div h4 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.flex div p {
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0px; 
+}
+
+.flex div img {
+    width: 700px;
+    margin: auto;
+}
+
+.flex div:nth-child(2) {
+    margin-top: 170px;
+    margin-left: -70px;
+    margin-right: 170px;
+    padding: 10px;
+    flex: 5;
+}
+
+.merchandise {
+    display:grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.merchandise div {
+    background-color:#688aa724;
+    margin: auto;
+    padding: 10px;
+    height: 400px;
+    width: auto;
+}
+
+.merchandise div:hover{
+    background-color:#d6528d39;
+}
+
+.merchandise div img {
+    width: 310px;
+    height: auto;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.merchandise div h4 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: -20px;
+}
+
+.merchandise div h5 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.merchandise div button {
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: double;
+    background-color: #517ca2d6;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.merchandise div button:hover {
+    background-color: #ef4a7175;
+}
